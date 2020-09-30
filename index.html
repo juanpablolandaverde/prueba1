@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Juan Pablo">
+    <meta name="keywords" content="el salvador, playa, ciudad, montaña, gastronomia">
+    <meta name="description" content="Sitio para mostrar lugares turisticos de el Salvador">
+    <title>El Salvador</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favi.png">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 12px;
+            margin: 5px auto;
+            width: 1000px;
+            height: 3350px;
+            clear: left;
+
+        }
+
+        header {
+            text-align: center;
+            width: 100%;
+            height: 150px;
+        }
+
+        nav {
+            width: 100%;
+            height: 50px;
+            padding: 0;
+            background-color: #034AA6;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav li a {
+            font-size: 20px;
+            text-decoration: double;
+            float: left;
+            padding: 10px;
+            margin: 0 37px;
+            color: #F2F2F2;
+
+        }
+
+        main {
+            width: 100%;
+            height: 3000px;
+            text-align: center;
+        }
+
+        footer {
+            width: 100%;
+            height: 150px;
+            background-color: #034AA6;
+            clear: left;
+        }
+
+        section {
+            width: 100%;
+            height: 750px;
+        }
+
+        h1 {
+            font-family: 'Muli', sans-serif;
+            font-size: 30px;
+            padding: 5px 0;
+            margin: 0;
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px;
+            font-size: 15px;
+        }
+
+        h3 {
+            padding-top: 90px;
+        }
+
+        footer img {
+            float: right;
+            padding: 80px 20px 0 0;
+        }
+
+        footer div p {
+            font-size: 12px;
+            margin: 4px 0 0 30px;
+            color: white;
+        }
+
+        a {
+            color: white;
+        }
+
+        a:active {
+            color: white;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        /************************************ id`s  **************************************/
+        #lado1 {
+            width: 60%;
+            height: 100%;
+            float: left;
+            padding-top: 30px;
+
+        }
+
+        #lado2 {
+            width: 40%;
+            height: 100%;
+            float: left;
+        }
+
+        /************************************* clases  ********************************************/
+        .image {
+            margin: 50px 22px;
+            border: 2px solid black;
+        }
+
+        .media {
+            width: 500px;
+            height: 700px;
+            float: left;
+        }
+
+        .texto {
+            width: 500px;
+            height: 700px;
+            background-color: #F2F2F2;
+            float: left;
+        }
+
+        .titulo {
+            width: 1000px;
+            height: 50px;
+            clear: left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!------------------------------- cabecera ------------------------------------------>
+    <header id="inicio">
+        <a href="http://www.mitur.gob.sv/" target="_blank"><img src="img/logo.png" alt="logo de el salvador"></a>
+
+
+    </header>
+    <!---------------------------------- menu  --------------------------------------------->
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="#playa">PLAYAS</a></li>
+            <li><a href="#montaña">MONTAÑAS</a></li>
+            <li><a href="#ciudad">CIUDAD</a></li>
+            <li><a href="#gastro">GASTRONOMÍA</a></li>
+        </ul>
+
+    </nav>
+    <!---------------------------------- contenido principal ------------------------------->
+    <main>
+
+
+        <!------------------------------------ |playas| ----------------------------------------->
+        <section id="playa">
+            <div class="titulo" style="background-image: url(img/agua.gif); background-size: 100% 100%; color: white;">
+                <h1>PLAYA</h1>
+            </div>
+            <!----------------------- imagenes y video  ------------------------>
+            <div class="media">
+                <img class="image" src="img/PY_ElTunco.jpg" width="200" height="300" onmouseover="this.src='img/PY_BarraSantiago.jpg'" onmouseout="this.src='img/PY_ElTunco.jpg'" alt="el tunco">
+                <img class="image" src="img/PY_El_Sunzal.jpg" width="200" height="300" onmouseover="this.src='img/PY_ElZonte.jpg'" onmouseout="this.src='img/PY_El_Sunzal.jpg'" alt="el zunzal">
+
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/e6xFiTlb3Qw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!--------------------------- texto  --------------------------------->
+            <div class="texto">
+                <h3><em>"Playas Majestuosas..."</em></h3>
+                <p>
+                    ¿Puedes imaginarte sentado frente al mar disfrutando un hermoso paisaje paradisiaco? O simplemente
+                    adentrándote en él al practicar deportes marinos? … Sí te encuentras en cualquiera de los casos no es difícil
+                    encontrar el lugar adecuado para hacerlo. Solo debes visitar las playas de El Salvador, cada una de ellas
+                    tiene atracciones turísticas diferentes que te enamoraran; es por ello que son el mejor destino al hacer
+                    turismo El Salvador.</p>
+
+                <p>Su ubicación estratégica en el litoral del océano pacifico le da la particularidad de poseer más de 50 playas
+                    en los alrededores. Por lo que tienes muchas opciones para escoger, aunado a ello encontramos un clima cálido
+                    tropical que compagina totalmente con las zonas turísticas que posee.</p>
+
+                <p>Desde Ahuachapán hasta La Unión podemos encontrar fabulosas playas, cada una de ellas se diferencia por su
+                    gente, sus aguas, sus atardeceres y su hermosa naturaleza. Lo que nos deja la imperiosa necesidad de hacerte
+                    conocer un poco más sobre cada una de estas playas, adéntrate en la lectura y te sentirás parte del lugar.</p>
+
+            </div>
+        </section>
+        <!-------------------------------------------- |montaña| ------------------------------------------------->
+        <section id="montaña">
+            <div class="titulo" style="background-image: url(img/bosque.gif);  background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%; color: white;">
+                <h1>MONTAÑA</h1>
+            </div>
+            <!--------------------------- texto  --------------------------------->
+            <div class="texto">
+                <h3><em>"Soberbios Volcanes..."</em></h3>
+                <p>Esta pequeña república centroamericana cuenta con más de una veintena de conos volcánicos en su territorio,
+                    que en un noventa por cierto tiene ese origen, si bien en total casi se contabilizan dos centenares. Se
+                    alinean a lo largo de una columna vertebral que lo recorre de norte a sur en paralelo al océano Pacífico
+                    formando un cinturón de fuego: Chingo, Santa Ana (Ilamatepec), Cerro Verde, Izalco, San Salvador
+                    (Quezaltepeque), San Vicente (Chichontepec), Usulután, San Miguel (Chaparrastique), Guazapa o Conchagua, entre
+                    otros que incluyen también un par de islas llamadas Conchagüita y Meanguera.</p>
+
+                <p>Catorce de ellos están activos y humean de vez en cuando (Santa Ana, San Salvador, San Miguel e Izalco)
+                    mientras que otros se hallan en letargo esperando su momento (Conchagüita, Islas Quemadas) y alguno parece
+                    haberse dormido desde hace mucho (el Ilopango entró en erupción por última vez en el año 429 d.C, y el San
+                    Marcelino en 1792). Los volcanes salvadoreños tienen altitudes distintas, desde los 430 metros del Ilapango,
+                    que en realidad es sólo una caldera, hasta el techo del país, que lo ostenta el Santa Ana con 2.382. La
+                    mayoría supera la cota mil</p>
+            </div>
+            <!----------------------- imagenes y video  ------------------------>
+            <div class="media">
+                <img class="image" src="img/vn_izalco.jpg" width="200" height="300" onmouseover="this.src='img/vn_SanSalvador.jpg'" onmouseout="this.src='img/vn_Izalco.jpg'" alt="el tunco">
+                <img class="image" src="img/vn_SanVicente.jpg" width="200" height="300" onmouseover="this.src='img/vn_SantaAna.jpg'" onmouseout="this.src='img/vn_SanVicente.jpg'" alt="el zunzal">
+
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/oXuuNAzk88Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <!------------------------------------ |ciudad| ---------------------------------------------------->
+        <section id="ciudad">
+            <div class="titulo" style="background-image: url(img/ciudad.gif); color: white;">
+                <h1>CIUDAD</h1>
+            </div>
+            <!----------------------- imagenes y video  ------------------------>
+            <div class="media">
+                <img class="image" src="img/cd_SanSalvador.jpg" width="200" height="300" onmouseover="this.src='img/cd_SantaAna.jpg'" onmouseout="this.src='img/cd_SanSalvador.jpg'" alt="San Salvador">
+                <img class="image" src="img/cd_SanMiguel.jpg" width="200" height="300" onmouseover="this.src='img/cd_SantaTecla.jpg'" onmouseout="this.src='img/cd_SanMiguel.jpg'" alt="San Miguel">
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/M_nZ7im2B6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+            <!--------------------------- texto  --------------------------------->
+            <div class="texto">
+                <h3><em>"Nuestros Hogares Queridos..."</em></h3>
+                <p>El Salvador más inspiradoras tienta al visitante a explorar las torres gemelas de la Catedral de Santa Ana.
+                    Vague a través de las calles y admire sus moradas barrocas, patios llenos de flores y ornamentadas puertas de
+                    madera talladas.</p>
+
+                <p>Se encuentra en el occidente del país. Un simple recorrido por el centro de la ciudad basta para encontrar
+                    interesantes lugares históricos de gran valor arquitectónico.</p>
+
+                <p>Afuera del casco urbano, le tenemos una gran variedad de naturaleza incluyendo el Lago Suchitlán, Volcán
+                    Guazapa, saltos de agua, lugares históricos del país, reservas forestales protegidas, y turicentros.</p>
+            </div>
+        </section>
+        <!------------------------------------- |gastronomia| ------------------------------------------->
+        <section id="gastro">
+            <div class="titulo" style="background-image: url(img/comida.gif); background-attachment: fixed; color: white;">
+                <h1>GASTRONOMÍA</h1>
+            </div>
+            </div>
+            <!--------------------------- texto  --------------------------------->
+            <div class="texto">
+                <h3>
+                    <em>"la tierra que nos sustenta..."</em>
+                </h3>
+                <p>La gastronomía de El Salvador se caracteriza por la fusión de dos grandes culturas, la indígena (Pipil y
+                    Lenca), la Española, y con ligeras contribuciones e influencias adicionales de la comida estadounidense e
+                    italiana. La gastronomía salvadoreña se elabora principalmente con ingredientes de procedencia local,
+                    especialmente maíz, el frijol, el arroz, pollo, res, cerdo, mariscos, algunos animales silvestres, lácteos, y
+                    muchas frutas y verduras.</p>
+
+                <p>En lo relativo a bebidas, en esta parte del mundo es una costumbre arraigada, consumir “atoles”. Conocer el
+                    Pulgarcito de América supone hacerlo acercándonos a sus platos principales, es por ello, que a continuación os
+                    vamos a mostrar la comida típica de El Salvador a través de sus platos o platillos tradicionales como son las
+                    pupusas, las riguas, empanadas y enchiladas</p>
+            </div>
+            <!----------------------- imagenes y video  ------------------------>
+            <div class="media">
+                <img class="image" src="img/gt_pupusas.jpg" width="200" height="300" onmouseover="this.src='img/gt_empanadas.jpg'" onmouseout="this.src='img/gt_pupusas.jpg'" alt="comida">
+                <img class="image" src="img/gt_enchilada.jpg" width="200" height="300" onmouseover="this.src='img/gt_riguas.jpg'" onmouseout="this.src='img/gt_enchilada.jpg'" alt="comida">
+                <iframe width="460" height="215" src="https://www.youtube.com/embed/9qmC40Sif94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <!------------------------------------ pie ------------------------------------------------>
+    <footer>
+
+        <div id="lado1">
+            <p>
+                <a href="#inicio">Inicio</a> |
+                <a href="#playa">Playa</a> |
+                <a href="#montaña">Montaña</a> |
+                <a href="#ciudad">Ciudad</a> |
+                <a href="#gastro">Gastronomia</a> |
+            </p>
+            <p>Curso de Desarrollo WEB - INA</p>
+            <p>Tema: El Salvador, mi tierra. - Diseñado por: Juan Pablo Pérez Landaverde</p>
+            <p>Todos los derechos reservados®</p>
+        </div>
+        <div id="lado2">
+
+            <a href="http://www.facebook.com" target="_blank"><img src="img/FB_ico.png" alt="facebook"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="img/insta_ico.png" alt="instagram"></a>
+            <a href="http://www.youtube.com" target="_blank"><img src="img/yt_ico.png" alt="youtube"></a>
+
+
+
+        </div>
+
+    </footer>
+
+    <!------------------------ boton para subir  ----------------------------------->
+    <div style="position: fixed; bottom: 10px; right: 25px;">
+        <a href="#inicio">
+            <img src="img/subir.png" alt="volver al inicio" title="Ir al principio">
+        </a>
+    </div>
+</body>
+
+</html>
